@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.task.launcher.annotation.EnableTaskLauncher;
 
 @SpringBootApplication
-@EnableTaskLauncher()
+@EnableTaskLauncher
 public class SpringCloudTaskSinkApplication {
 
 	public static void main(String[] args) {
